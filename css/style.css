@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Mulish';
+    src: url('./fonts/Mulish-Italic.woff2') format('woff2'),
+        url('./fonts/Mulish-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('./fonts/Mulish-Regular.woff2') format('woff2'),
+        url('./fonts/Mulish-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Mulish';
+}
+
+nav {
+    background-color: #0b0d0c;
+}
+
+.nav-link_search {
+    margin-right: 15px;
+}
+
+.navbar-nav li {
+    margin-right: 10px;
+}
+
+.navbar-nav .navbar-link  {
+    color: #fff;
+    padding: 20px 0px;
+}
+
+.navbar-nav .navbar-link:hover {
+    box-shadow: 0px 3px 0px 0px #0cc555;
+    color: #0cc555;
+}
+
+.main {
+    background-color: #0b0d0c;
+}
+
+.main .container {
+    padding: 100px 0;
+}
+
+.text-main {
+    width: 560px;
+}
+
+.main-text {
+    font-size: 24px;
+    color: #cfcfcf;
+}
+
+.text-main span {
+    color: #0cc555;
+}
+
+.main-title {
+    font-size: 82px;
+    font-weight: bold;
+}
+
+.main-link_contact {
+    background-color: #0cc555;
+    margin-right: 10px;
+}
+
+.main-link_hire {
+    border: 1px solid #0cc555;
+}
+
+.main-circle_green {
+    width: 512px;
+    height: 512px;
+    border-radius: 50%;
+    background-color: #0cc555;
+}
+
+.main-circle_white {
+    width: 512px;
+    height: 512px;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: translate(25px, -20px);
+}
+
+.main-circle_green1 {
+    width: 91px;
+    height: 91px;
+    background-color: #0cc555;
+    border-radius: 50%;
+    border: 10px solid #0b0d0c;
+    top: 90px;
+}
+
+.main-circle_green2 {
+    width: 139px;
+    height: 139px;
+    background-color: #0cc555;
+    border-radius: 50%;
+    border: 10px solid #0b0d0c;
+    bottom: -50px;
+    right: 150px;
+}
+
+.main-socials {
+   top: 230px;
+   left: -60px;
+}
+
+.main-link_social {
+    border: 1px solid #0cc555;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    margin-top: 15px;
+}
+
+.main-link_social svg {
+    fill: #0cc555;
+    transition: 0.2s;
+}
+
+.main-link_social:hover svg {
+    fill: #fff;
+}
+
+.main-link_social:hover {
+    background-color: #0cc555;
+}
+
+.main-circle_1 {
+    top: 50px;
+    left: 350px;
+}
+
+.main-circle_2 {
+    bottom: 20px;
+    left: 350px;
+}
+
+.main-circle_3 {
+    top: 0px;
+    right: -120px;
+}
