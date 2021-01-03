@@ -315,7 +315,7 @@ nav {
 
 .skill-list {
     width: 695px;
-    height: 340px;
+    height: 300px;
 }
 
 .skill-item {
@@ -446,4 +446,50 @@ nav {
 
 .product-item .seven {
     width: 69px;
+}
+
+.in .header {
+    width: 180px;
+}
+
+.in-item {
+    width: 370px;
+    padding: 30px 20px;
+}
+
+.image-in {
+    width: 81px;
+    height: 81px;
+    background-color: #0cc555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-in svg {
+    fill: #fff;
+}
+
+.in-title {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    color: #0b0d0c;
+}
+
+.in-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #6c6d74;
+    font-family: "Mulish";
+}
+
+.in-link {
+    font-size: 16px;
+    color: #0cc555;
+    font-weight: bold;
+}
+
+.in-link::after {
+
 }

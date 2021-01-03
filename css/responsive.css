@@ -307,6 +307,10 @@
 	.skill .header {
 		padding-top: 30px;
 	}
+
+	.skill-title {
+		padding-bottom: 10px;
+	}
 }
 
 @media(max-width: 365px) {
