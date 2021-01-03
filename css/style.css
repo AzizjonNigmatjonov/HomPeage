@@ -178,8 +178,8 @@ nav {
     background-color: #f8f9fb;
 }
 
-.container-story {
-    padding: 120px 0px 0px 0px !important;
+.story .container {
+    padding-top: 120px;
 }
 
 .story-green {

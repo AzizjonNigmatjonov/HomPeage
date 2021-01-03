@@ -231,6 +231,15 @@
 	.text-story {
 		bottom: 85px;
 	}
+
+	.story .container {
+		padding-top: 50px;
+	}
+
+	.skill .header {
+		padding-top: 50px;
+	}
+
 }
 
 @media(max-width: 552px) {
@@ -285,6 +294,18 @@
 	.main-socials {
 		top: 570px;
 		left: 20px;
+	}
+
+	.story .container-story {
+		padding: 20px 0px 0px 0px !important;
+	}
+
+	.story .container {
+		padding-top: 30px;
+	}
+
+	.skill .header {
+		padding-top: 30px;
 	}
 }
 
