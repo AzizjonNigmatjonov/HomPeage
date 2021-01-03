@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="25" height="25">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #0cc555 } 
+	</style>
+	<g id="Skills">
+		<g id="Experience">
+			<g id="Company 02">
+				<g id="Logo">
+					<path id="logo" class="shp0" d="M11.88 11.88L0 11.88L0 0L11.88 0L11.88 11.88ZM25 11.88L13.12 11.88L13.12 0L25 0L25 11.88L25 11.88ZM11.88 25L0 25L0 13.12L11.88 13.12L11.88 25ZM25 25L13.12 25L13.12 13.12L25 13.12L25 25L25 25Z" />
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

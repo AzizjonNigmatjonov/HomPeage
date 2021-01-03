@@ -29,6 +29,11 @@
 		flex-direction: column-reverse;
 	}
 
+	.skill-body {
+		flex-direction: column;
+		align-items: center;
+	}
+
 }
 
 @media(max-width: 992px) {
@@ -38,6 +43,22 @@
 
 	.main-circle_2 {
 		left: 200px;
+	}
+
+	.skill-title {
+		padding-bottom: 20px;
+	}
+
+	.skill-list {
+		display: inline-block !important;
+	}
+
+	.skill-item {
+		margin: 20px auto 0px auto;
+	}
+
+	.product-list {
+		margin-top: 230px;
 	}
 }
 
@@ -99,6 +120,19 @@
 
 	.container-story {
 		padding: 50px 0px;
+	}
+
+	.skill-title {
+		width: 100%;
+	}
+
+	.skill-list {
+		width: 100%;
+		height: auto;
+	}
+
+	.product-list {
+		margin-top: 0px;
 	}
 }
 

@@ -174,8 +174,12 @@ nav {
     right: -50px;
 }
 
+.story {
+    background-color: #f8f9fb;
+}
+
 .container-story {
-    padding: 120px 0px;
+    padding: 120px 0px 0px 0px !important;
 }
 
 .story-green {
@@ -284,4 +288,162 @@ nav {
 .about-link_download:hover {
     background-color: #0cc555;
     color: #fff;
+}
+
+.skill .header {
+    width: 180px;
+    padding-top: 100px;
+}
+
+.skill-title {
+    width: 500px;
+    font-size: 44px;
+    line-height: 54px;
+    color: #0b0d0c;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.skill-text {
+    font-size: 16px;
+    color: #0cc555;
+    font-weight: bold;
+    padding-top: 14px;
+}
+
+.skill-list {
+    width: 695px;
+    height: 340px;
+}
+
+.skill-item {
+    filter: drop-shadow(0px 5px 12.5px rgba(136,150,143,0.2));
+    background-color: #fff;
+    width: 330px;
+    height: 120px;
+    padding: 25px 20px;
+}
+
+.skill-item:hover {
+    background-color: #0b0d0c;
+}
+
+.skill-item:hover svg {
+    fill: #fff;
+}
+
+.skill-item:hover .skill-image {
+    background-color: #0cc555;
+}
+
+.skill-item:hover .skill-brand {
+    color: #fff;
+}
+
+.skill-image {
+    width: 60px;
+    height: 60px;
+    background-color: #f8f9fb;
+}
+
+.skill-image svg {
+    fill: #0cc555;
+}
+
+.text-skill {
+    margin-left: 10px;
+}
+
+.skill-year{
+    font-size: 15px;
+    color: #0cc555;
+}
+
+.skill-brand {
+    font-size: 22px;
+    color: #0b0d0c;
+    font-weight: 700;
+    font-family: "Playfair Display";
+}
+
+.product-list {
+    padding-left: 25px;
+    width: 330px;
+}
+
+.product-item {
+    width: 100%;
+    position: relative;
+}
+
+.product-item:nth-child(1) {
+    margin-top: 20px;
+}
+
+.product-item:nth-child(2n) {
+    margin-top: 25px;
+}
+
+.product-item:nth-child(3) {
+    margin-top: 25px;
+}
+
+.product-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-text {
+    font-size: 16px;
+    color: #0b0d0c;
+    font-weight: bolder;
+}
+
+.product-percent {
+    font-size: 16px;
+    color: #0cc555;
+    font-weight: bolder;
+}
+
+.product-footer {
+    width: 275px;
+    height: 5px;
+    background-color: #0cc555;
+}
+
+.product-line {
+    width: 35px;
+    height: 5px;
+    background-color: #e6eaef;
+    position: absolute;
+    top: 40px;
+    right: -2px;
+    z-index: -1;
+}
+
+.product-item .second {
+    width: 240px;
+}
+
+.product-item .third {
+    width: 69px;
+}
+
+.product-item .fourth {
+    width: 200px;
+}
+
+.product-item .fifth {
+    width: 111px;
+}
+
+.product-item .six {
+    width: 240px;
+}
+
+.product-item .seven {
+    width: 69px;
 }
