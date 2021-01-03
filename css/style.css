@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Mulish';
     src: url('./fonts/Mulish-Italic.woff2') format('woff2'),
-        url('./fonts/Mulish-Italic.woff') format('woff');
+    url('./fonts/Mulish-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -10,9 +10,27 @@
 @font-face {
     font-family: 'Mulish';
     src: url('./fonts/Mulish-Regular.woff2') format('woff2'),
-        url('./fonts/Mulish-Regular.woff') format('woff');
+    url('./fonts/Mulish-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('./fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+    url('./fonts/PlayfairDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('./fonts/PlayfairDisplay-Italic.woff2') format('woff2'),
+    url('./fonts/PlayfairDisplay-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
     font-display: swap;
 }
 
@@ -153,5 +171,117 @@ nav {
 
 .main-circle_3 {
     top: 0px;
-    right: -120px;
+    right: -50px;
+}
+
+.container-story {
+    padding: 120px 0px;
+}
+
+.story-green {
+    width: 517px;
+    height: 650px;
+    background-color: #0cc555;
+    border-top-right-radius: 500px;
+    border-top-left-radius: 500px;
+}
+
+.story-white {
+    width: 480px;
+    height: 619px;
+    background-color: #d8d8d8;
+    border-top-right-radius: 480px;
+    border-top-left-radius: 480px;
+    bottom: 2px;
+}
+
+.text-story {
+    width: 200px;
+    height: 100px;
+    background-color: #0cc555;
+    bottom: 120px;
+    border: 10px solid #fff;
+    border-left: none;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.story-num {
+    font-size: 48px;
+}
+
+.text-plus {
+    font-size: 15px;
+    top: 27px;
+    left: 48px;
+}
+
+.story-text {
+    font-size: 16px;
+    width: 100px;
+    margin-left: 20px
+}
+
+.story__about {
+    width: 530px;
+}
+
+.about-text {
+    font-size: 16px;
+    color: #0cc555;
+}
+
+.about-header-stick {
+    width: 2px;
+    height: 12px;
+    background-color: #0cc555;  
+    margin-bottom: 12px;
+    margin-left: 5px;
+}
+
+.about-header_stick2 {
+    width: 50px;
+    height: 2px;
+    background-color: #0cc555;  
+    margin-top: 5px;
+}
+
+.about-title {
+    font-size: 44px;    
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    color: #0b0d0c;
+}
+
+.about-subtext {
+    font-size: 16px;
+    line-height: 26px;
+    color: #6c6d74;
+}
+
+.about-info-age {
+    font-weight: bold;
+    font-size: 16px;
+    color: #0b0d0c;
+}
+
+.info-age-num {
+    color: #6c6d74;
+    font-weight: normal;
+}
+
+.about-link_download {
+    font-size: 16px;
+    color: #0b0d0c;
+    border: 1px solid #0cc555;
+    font-weight: 700;
+}
+
+.about-link_download:hover {
+    background-color: #0cc555;
+    color: #fff;
 }
