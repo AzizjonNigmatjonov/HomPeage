@@ -601,9 +601,10 @@ nav {
     color: #ffffff;
 }
 
-.call .container {
+.call {
     padding: 80px 30px 80px 100px;
-    margin-top: 120px; 
+    top: -170px;
+    width: 100%;
 }
 
 .header-call {
@@ -639,8 +640,13 @@ nav {
     right: 40px;
 }
 
+.trust {
+    background: #f8f9fb;
+    margin-top: 300px;
+}
+
 .trust .container {
-    padding: 120px 0px;
+    padding: 300px 0px 120px 0px;
 }
 
 .trust-sircle_green {
@@ -756,6 +762,6 @@ nav {
 }
 
 .trust-quote-img {
-    top: 125px;
+    top: 305px;
     right: 0px;
 }
