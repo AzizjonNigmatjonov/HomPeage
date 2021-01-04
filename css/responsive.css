@@ -230,6 +230,20 @@
 	.trust-title {
 		width: 100%;
 	}
+
+	.recent-item {
+		display: none;
+		height: 200px;
+		border: 10px solid #b1b1b1;
+	}
+
+	.recent-item:nth-child(5) {
+		border-top: 10px solid #b1b1b1;
+		border-bottom: 10px solid #b1b1b1;
+		border-left: 20px solid #b1b1b1;
+		border-right: 20px solid #b1b1b1;
+	}
+
 }
 
 @media(max-width: 576px) {
