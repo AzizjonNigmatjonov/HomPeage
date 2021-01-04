@@ -162,6 +162,7 @@
 
 	.recent .container {
 		padding: 60px 0px 0px 0px;
+		overflow: hidden;
 	}
 
 	.recent-title {
@@ -170,7 +171,8 @@
 
 	.recent-list {
 		margin-top: 30px;
-		overflow: hidden;	}
+		overflow: hidden;	
+	}
 
 	.recent-header {
 		flex-direction: column;
