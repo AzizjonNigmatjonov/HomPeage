@@ -130,8 +130,8 @@ nav {
 }
 
 .main-socials {
- top: 230px;
- left: -60px;
+   top: 230px;
+   left: -60px;
 }
 
 .main-link_social {
@@ -764,4 +764,108 @@ nav {
 .trust-quote-img {
     top: 305px;
     right: 0px;
+}
+
+.blog .container {
+    padding: 120px 0px;
+}
+
+.cards {
+    margin-top: 50px;
+}
+
+.blog-text {
+    width: 300px;
+    font-size: 22px;
+    line-height: 32px;
+    color: #0b0d0c;
+    font-weight: 700;
+    font-family: "Playfair Display";
+}
+
+.blog-header {
+    width: 220px;
+}
+
+.blog-title {
+    font-size: 44px;
+    color: #0b0d0c;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    text-align: center;
+}
+
+.blog-text {
+    font-size: 16px;
+    line-height: 34px;
+    color: #0cc555;
+    font-family: "Mulish";
+    text-align: center;
+}
+
+.blog-card {
+    width: 370px;
+}
+
+.blog-card:hover .card-title {
+    color: #0cc555;
+}
+
+.blog-item {
+    padding: 20px 40px 20px 20px;
+}
+
+.card-title {
+    width: 300px;
+    height: 49px;
+    font-size: 22px;
+    line-height: 32px;
+    color: #0b0d0c;
+    font-weight: 700;
+    font-family: "Playfair Display";
+}
+
+.blog-link {
+    position: relative;
+}
+
+.blog-card-2 {
+    position: relative;
+}
+
+.blog-link {
+    font-size: 16px;
+    color: #0b0d0c;
+    font-weight: bold;
+}
+
+.blog-link::after {
+    content: "";
+    background-image: url("../img/readmore.png");
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.2s;
+
+}
+
+.blog-link:hover {
+    color: #0cc555;
+}
+
+.blog-link:hover::after {
+    transform: translateX(100px);
+}
+
+.durex .container {
+    padding: 120px 0px;
+}
+
+.image-durex svg {
+    fill: #111111;
 }
