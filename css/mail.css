@@ -10,6 +10,7 @@ body {
   align-items:center;
   justify-content: center;
   height: 100vh;
+  background-image: linear-gradient(to left, rgb(9, 44, 70, 93), rgb(9, 44, 70, 93))
 }
 
 section {
@@ -28,6 +29,7 @@ section {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);;
   margin-bottom: 20px;
   border-radius: 8px;
+  position: relative;
 }
 
 form {
@@ -52,7 +54,7 @@ textarea {
   resize: none;
 }
 
-button[type="submit"] {
+.form-btn[type="submit"] {
   width: 100%;
   border: none;
   outline: none;
@@ -65,8 +67,10 @@ button[type="submit"] {
   transition: 0.2s ease-in-out;
 }
 
-button[type="submit"]:hover {
-  background-color:rgba(0, 0, 0, 0.5);
+.form-btn[type="submit"]:hover {
+  background-color: #3729b6;
+  color: #f1f1f1;
+  transform: scale(1.1);
 }
 
 #status {
@@ -76,16 +80,35 @@ button[type="submit"]:hover {
   padding: 10px;
   margin: 0 auto;
   border-radius: 8px;
+  color: #f1f1f1;
+  font-size: 24px;
+  font-weight: bolder;
+  background-color: #41c2cd;
 }
 
 #status.success {
-  background-color: rgb(211, 250, 153);
+  background-color: #05c62f;
   animation: status 4s ease forwards;
+  color: #fff;
 }
 
 #status.error {
-  background-color: rgb(211, 129, 92);
+  background-color: #ac0516;
   color: #fff;
+}
+
+.mail-back-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.mail-back-btn:hover {
+  transform: scale(1.1);
 }
 
 @keyframes status {

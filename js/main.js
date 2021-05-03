@@ -1,5 +1,5 @@
 var form = document.getElementById("my-form");
-
+const leftArrow = document.querySelector('.mail-back-btn');
 async function handleSubmit(event) {
   event.preventDefault();
   var status = document.getElementById("status");
@@ -15,8 +15,12 @@ async function handleSubmit(event) {
     status.classList.add('success');
     form.reset()
   }).catch(error => {
-    status.innerHTML = "Afsus habarda qandaydir muomo mavjud!"
+    status.innerHTML = "Afsus habar jo'natilmadi qandaydir muomo mavjud!"
     status.classList.add('error');
   });
 }
-form.addEventListener("submit", handleSubmit)
+form.addEventListener("submit", handleSubmit);
+
+leftArrow.addEventListener('click', e => {
+  window.location.href = "index.html"
+})

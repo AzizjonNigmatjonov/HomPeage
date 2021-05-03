@@ -6,7 +6,7 @@
 	}
 
 	.main-socials {
-		top: 520px;
+		top: 540px;
 		left: 0px;
 		display: flex;
 		flex-direction: row;
@@ -32,6 +32,10 @@
 	.skill-body {
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.story-green {
+		margin-top: 30px;
 	}
 
 	.in-list {
@@ -141,6 +145,10 @@
 		padding: 50px 0;
 	}
 
+	.main .main-socials {
+		top: 500px;
+	}
+
 	.text-main {
 		width: 100%;
 	}
@@ -207,7 +215,7 @@
 
 	.recent .container {
 		padding: 60px 0px 0px 0px;
-		overflow: hidden;
+		overflow: scroll;
 	}
 
 	.recent-title {
@@ -216,7 +224,7 @@
 
 	.recent-list {
 		margin-top: 30px;
-		overflow: hidden;	
+		overflow: scroll;	
 	}
 
 	.recent-header {
@@ -227,10 +235,6 @@
 
 	.recent-link {
 		margin-top: 30px;
-	}
-
-	.recent-item {
-
 	}
 
 	.call {
@@ -247,7 +251,7 @@
 	}
 
 	.trust .container {
-		padding: 540px 0px 120px 0px;
+		padding: 580px 0px 120px 0px;
 	}
 
 	.trust-quote-img {
@@ -361,6 +365,13 @@
 		border-top-left-radius: 500px;
 	}
 
+	.story .story-my-img {
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		position: absolute;
+	}
+
 	.story-white {
 		width: 263px;
 		height: 402px;
@@ -368,6 +379,7 @@
 		border-top-right-radius: 480px;
 		border-top-left-radius: 480px;
 		bottom: 2px;
+		z-index: 0;
 	}
 
 	.text-story {
