@@ -614,7 +614,13 @@ nav {
 
 .recent-item:nth-child(5) {
     background-color: #0cc555;
-    border: 20px solid #b1b1b1;
+    border: 20px solid #0cc555;
+}
+
+.recent-item:nth-child(5) img {
+    height: 336px;
+    width: 445px;
+    margin-top: 0px;
 }
 
 .recent-item:nth-child(6) {
@@ -625,25 +631,34 @@ nav {
     background-color: #d8d8d8;
 }
 
+.recent-project-link {
+    text-decoration: none;
+}
+
 .recent-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
+    transition: 0.2s;
+}
+
+.recent-img:hover {
+    transform: scale(1.1);
 }
 
 .recent-subtitle {
     font-size: 22px;
-    line-height: 24px;
     color: #ffffff;
     font-weight: 700;
     font-family: "Playfair Display";
+    margin: 0;
 }
 
 .recent-subtext {
     font-size: 16px;
-    line-height: 24px;
     color: #ffffff;
+    margin: 0;
 }
 
 .call {
